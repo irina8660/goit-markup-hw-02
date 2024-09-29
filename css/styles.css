@@ -6,6 +6,9 @@ body {
 span {
     color: #2E2F42;
 }
+address {
+    font-style: normal;
+}
 .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -27,15 +30,16 @@ span {
     color: #404BBF;
 }
 .nav-address {
-    color: #2E2F42;
+    color: #434455;
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-address:hover {
-    color: #404BBF;
+.nav-address:hover,
+.nav-address:focus {
+    color: #404bbf;
 }
 .text-none {
     display: none;
@@ -55,10 +59,11 @@ a {
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.0714;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .header-button {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #ffffff;
     font-family: "Roboto";
@@ -66,13 +71,14 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 
 }
 .header-button:hover {
     background-color: #404BBF;
 }
-.concept-title
-.team-card-name
+.concept-title,
+.team-card-name,
 .portfolio-card-name {
     color: #2e2f42;
     font-size: 20px;
@@ -80,8 +86,8 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.concept-text
-.team-card-pos
+.concept-text,
+.team-card-pos,
 .portfolio-card-name-text {
     color: #434455;
     font-size: 16px;
@@ -93,7 +99,7 @@ a {
     background-color: #F4F4FD;
     text-align: center;
 }
-.team-title
+.team-title,
 .portfolio-title {
     color: #2e2f42;
     font-size: 36px;
@@ -101,7 +107,7 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
-.team-card
+.team-card,
 .portfolio-card {
     background-color: #FFFFFF;
 }
