@@ -1,64 +1,107 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+}
+span {
+    color: #2E2F42;
+}
+.logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.nav-link {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:active {
+    color: #404BBF;
+}
+.nav-address {
+    color: #2E2F42;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-address:hover {
+    color: #404BBF;
 }
 .text-none {
     display: none;
 }
+ul,
+ol {
+    list-style-type: none;
+}
 a {
     text-decoration: none;
-    color: #2E2F42;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.333;
 }
-a:hover,
-a:active {
-    color: #404BBF;
+.header {
+    background-color: #2e2f42;
 }
-.web {
-    color: #4D5AE5;
-}
-.logo {
-    font-family: "Raleway";
-    text-transform: uppercase;
-}
-.logo:hover {
-    color: inherit;
-}
-ul,ol {
-list-style-type: none;    
-}
-h1 {
+.header-title {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.0714;
-    text-align: center;
+    letter-spacing: 0.02em;
 }
-h2 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 0.9;
+.header-button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
 }
-h3 {
+.header-button:hover {
+    background-color: #404BBF;
+}
+.concept-title
+.team-card-name
+.portfolio-card-name {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-.team{
-    text-align: center;
-}
-.body-text {
+.concept-text
+.team-card-pos
+.portfolio-card-name-text {
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.but-or {
-   background-color: #4D5AE5; 
+.team {
+    background-color: #F4F4FD;
+    text-align: center;
 }
-.but-or:hover {
-    background-color: #404BBF;
+.team-title
+.portfolio-title {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
-button {
-    cursor: pointer;
+.team-card
+.portfolio-card {
+    background-color: #FFFFFF;
 }
