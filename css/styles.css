@@ -1,0 +1,64 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+.text-none {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.333;
+}
+a:hover,
+a:active {
+    color: #404BBF;
+}
+.web {
+    color: #4D5AE5;
+}
+.logo {
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+.logo:hover {
+    color: inherit;
+}
+ul,ol {
+list-style-type: none;    
+}
+h1 {
+    font-size: 56px;
+    line-height: 1.0714;
+    text-align: center;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.team{
+    text-align: center;
+}
+.body-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.but-or {
+   background-color: #4D5AE5; 
+}
+.but-or:hover {
+    background-color: #404BBF;
+}
+button {
+    cursor: pointer;
+}
