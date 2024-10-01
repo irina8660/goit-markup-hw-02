@@ -41,9 +41,6 @@ address {
 .nav-address:focus {
     color: #404bbf;
 }
-.text-none {
-    display: none;
-}
 ul,
 ol {
     list-style-type: none;
@@ -66,7 +63,6 @@ a {
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #ffffff;
-    font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -75,7 +71,6 @@ a {
 
 }
 .header-button:hover,
-.header-button:active,
 .header-button:focus {
     background-color: #404BBF;
 }
