@@ -26,6 +26,7 @@ address {
     letter-spacing: 0.02em;
 }
 .nav-link:hover,
+.nav-link:focus,
 .nav-link:active {
     color: #404BBF;
 }
@@ -74,7 +75,8 @@ a {
     cursor: pointer;
 
 }
-.header-button:hover {
+.header-button:hover,
+.header-button:active {
     background-color: #404BBF;
 }
 .concept-title,
