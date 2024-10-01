@@ -26,8 +26,7 @@ address {
     letter-spacing: 0.02em;
 }
 .nav-link:hover,
-.nav-link:focus,
-.nav-link:active {
+.nav-link:focus {
     color: #404BBF;
 }
 .nav-address {
