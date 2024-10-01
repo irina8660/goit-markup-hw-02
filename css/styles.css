@@ -76,7 +76,8 @@ a {
 
 }
 .header-button:hover,
-.header-button:active {
+.header-button:active,
+.header-button:focus {
     background-color: #404BBF;
 }
 .concept-title,
